@@ -11,10 +11,10 @@ public class peso {
         System.out.println(" ");
         System.out.println(" ");
         System.out.println("calcular peso ideal");
-        System.out.println("-------------------------------");
+        System.out.println("--------------------");
         System.out.println(" ");
 
-        System.out.println("digite a sua altura: ");
+        System.out.println("digite a sua altura (ex. 1.75): ");
         double altura = scanner.nextDouble();
 
         System.out.println(" ");
