@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.box {
+    text-align: center;
+    background-color: #134343;
+    padding: 10px;
+}
+
+#resultado {
+    color:white;
+}
+
+

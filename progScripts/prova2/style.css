@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: left;
+    background-color: #1b1c1c;
+    padding: 20px;
+}
+
+.toast-container {
+    color: black;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+}
