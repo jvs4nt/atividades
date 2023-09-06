@@ -16,6 +16,10 @@ body {
     margin-top: 20%;
 }
 
+li {
+    margin-top: 50px;
+}
+
 .imagem {
     width: 50%;
     border-style: groove;
