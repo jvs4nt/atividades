@@ -1,0 +1,25 @@
+package br.com.fiap.main;
+
+import br.com.fiap.beans.Carro;
+import br.com.fiap.beans.Cliente;
+import br.com.fiap.beans.Endereco;
+
+public class TesteCliente {
+
+	public static void main(String[] args) {
+		
+		// Instanciar Objetos
+		
+		Cliente ojetoCliente = new Cliente();
+		Endereco objetoEndereco = new Endereco();
+		Carro objetoCarro = new Carro();
+		
+		// Entradas
+		
+		// Cliente
+		
+		
+		
+	}
+
+}

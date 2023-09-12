@@ -1,0 +1,12 @@
+package br.com.fiap.beans;
+
+public class Endereco {
+	
+	// Visibilidade , tipos e variaveis
+	
+	public String logradouro;
+	public int numero;
+	public String complemento;
+	public String cep;
+
+}
