@@ -3,9 +3,6 @@
 
 body {
     font-family: 'Outfit', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     background-image: url(./../img/fundo2.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -13,12 +10,37 @@ body {
 }
 
 .body-index {
-    margin-top: 20%;
+    background-color: rgb(246, 151, 132);
+    border-width: 5px;
+    border-color: rgb(244, 119, 94);
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
 }
 
-li {
-    margin-top: 50px;
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.navbar {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    gap:20px;
+}
+
+.navbar h1 {
+    color: white;
+
+}
+
+/* li {
+    margin-top: 50px;
+} */
 
 .imagem {
     width: 50%;
@@ -37,16 +59,19 @@ li {
 }
 
 a {
-    gap: 10px;
-    padding: 10px;
-    background-color: rgb(172, 22, 54);
+    padding: 5px;
+    background-color: rgb(246, 151, 132);
     border-radius: 10px;
     color:white;
-    margin-top: 10px;
     border-style: solid;
     border-width: 2px;
-    border-color: black;
+    border-color: white;
+    text-decoration: none;
+}
 
+a:hover {
+    background-color: rgb(244, 119, 94);
+    transition: 0.5s;
 }
 
 figure {
