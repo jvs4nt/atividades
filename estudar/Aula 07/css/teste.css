@@ -1,0 +1,29 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.header {
+
+    background-color: grey;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-width: 5px;
+    border-color: blueviolet;
+    border-style: solid;
+}
+
+.container {
+
+    width: 80%;
+    margin: 0 auto;
+   
+
+}
+
+

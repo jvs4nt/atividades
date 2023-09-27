@@ -1,0 +1,38 @@
+
+
+.elemento {
+
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+.container {
+
+    display: flex;
+    align-items: center;
+    align-content: flex-start;
+    background-color: blue;
+    height: 300px;
+    width: 800px;
+    justify-content: space-around;
+}
+
+
+.p {
+
+    justify-content: center;
+
+}
+
+.containerr {
+
+    width: 100px;
+    height: 90px;
+    background-color: aqua;
+    border-radius: 5px;
+    border-color: purple;
+    
+
+}
