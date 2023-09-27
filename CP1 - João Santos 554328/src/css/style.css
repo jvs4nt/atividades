@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Oswald&display=swap');
+
+body {
+    margin: 0;
+    width: 100%;
+    font-family: 'Inclusive Sans', sans-serif;
+}
+
+a {
+    color: inherit;
+}
+
+.header {
+    background-color: #a9a9a9;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 10%;
+    font-family: 'Oswald', sans-serif;
+}
+
+.box-lista {
+    margin-right: 10%;
+}
+
+.lista {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    color: black;
+}
+
+.container {
+    margin: 0 auto;
+    width: 40%;
+    align-items: center;
+    margin-top: 40px;
+    
+}
+
+
+.input-box {
+ display: flex;
+}
+
+input {
+    width:38vw ;
+}
+
+.button {
+    background-color: lightseagreen;
+    padding: 7px;
+    text-decoration: none;  
+    margin-left: 2px;
+}
+
+.tarefas {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+.tarefa {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.concluido {
+    background-color: #add8e6;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.excluir {
+    background-color: #f08080;
+    padding: 10px;
+    text-decoration: none;
+}
+
+br {
+    
+
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid grey;
+}
