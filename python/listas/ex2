@@ -1,0 +1,21 @@
+listaA = []
+listaB = []
+listaC = []
+
+print("")
+
+for i in range(10):
+    listaA.append(int(input("Digite um elemento da lista A: ")))
+    listaB.append(int(input("Digite um elemento da lista B: ")))
+
+for i in range(10):
+    listaC.append(listaA[i])
+    listaC.append(listaB[i])
+
+print("")
+
+print(f"Lista A: {listaA}")
+print(f"Lista B: {listaB}")
+print(f"Lista C: {listaC}")
+
+print("")

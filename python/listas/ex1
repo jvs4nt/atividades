@@ -1,0 +1,22 @@
+print("")
+
+lista_numeros = []
+lista_pares = []
+lista_impares = []
+
+for i in range(10):
+    lista_numeros.append(int(input("digite um elemento da lista: ")))
+
+for i in range(10):
+    if (lista_numeros[i] % 2 == 0):
+        lista_pares.append(lista_numeros[i])
+    else:
+        lista_impares.append(lista_numeros[i])
+
+print("")
+
+print(f"Lista: {lista_numeros}")
+print(f"Lista dos pares: {lista_pares}")
+print(f"Lista dos impares: {lista_impares}")
+
+print("")

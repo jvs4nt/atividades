@@ -1,0 +1,22 @@
+print("")
+
+lista = []
+
+for i in range(10):
+    valor = float(input(f"digite o valor {i} da lista: "))
+    lista.append(valor)
+
+maior = lista[0]
+posicao = 0
+
+print("")
+
+
+for i in range(1, len(lista)):
+    if lista[i] > maior:
+        maior = lista[i]
+        posicao = i
+
+print(f"a posição do maior valor foi: {posicao}")
+
+print("")

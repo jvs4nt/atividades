@@ -1,0 +1,41 @@
+print("")
+
+lista_notas = []
+qtd_acima = 0
+qtd_abaixo7 = 0
+
+nota = float(input("digite a nota do aluno: "))
+print("")
+
+
+while (nota != -1):
+    if (nota >= 0) and (nota <= 10):
+        lista_notas.append(nota)
+    
+    nota = float(input("digite a nota do aluno: "))
+    print("")
+
+
+qtd_notas = len(lista_notas)
+soma = sum(lista_notas)
+media = soma / qtd_notas
+
+for i in range(qtd_notas):
+    if (lista_notas[i] > media):
+        qtd_acima += 1
+    if (lista_notas[i] < 7):
+        qtd_abaixo7 += 1
+
+print("")
+
+print(f"Quantidade de valores que foram lidos: {qtd_notas}")
+print(f"soma das notas: {soma}")
+print(f"media das notas: {media}")
+print(f"quantidade de valores acima da media: {qtd_acima}")
+print(f"quantidade de valores abaixo de 7: {qtd_abaixo7}")
+
+
+
+
+
+

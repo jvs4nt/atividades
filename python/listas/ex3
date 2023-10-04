@@ -1,0 +1,26 @@
+print("")
+
+lista_media = []
+qtd_alunosMaiorIgual7 = 0
+
+for i in range(10):
+    cp1 = float(input("digite a nota do cp1: "))
+    cp2 = float(input("digite a nota do cp2: "))
+    cp3 = float(input("digite a nota do cp3: "))
+    print("")
+
+    media = (cp1 + cp2 + cp3) / 3
+    lista_media.append(media)
+
+for i in range(10):
+    if (lista_media[i] >= 7.0):
+        qtd_alunosMaiorIgual7 += 1
+
+print("")
+
+print(f"Lista das médias: {lista_media}")
+
+print("")
+
+print(f"Quantidade de alunos com media maior ou igual a 7: {qtd_alunosMaiorIgual7}")
+
