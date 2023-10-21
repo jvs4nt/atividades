@@ -17,7 +17,7 @@ while (e != 2):
     print("Escolha uma das opções para seguir: ")
     print("1 - Informações sobre nossos produtos")
     print("2 - Entre em contato conosco")
-    print("3 - Visitar nossas redes sociais")
+    print("3 - Visite nossas redes sociais")
     print("4 - Participar do programa de fidelidade")
     print("")
 
