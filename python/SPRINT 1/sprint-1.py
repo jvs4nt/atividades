@@ -33,23 +33,115 @@ while (e != 2):
             print("3 - Marketing")
             print("4 - Commerce")
             print("5 - Data Cloud")
-
-            input("Pressione ENTER para continuar...")
-
-            clear()
-            print(f"Obrigado pelo acesso {nome}! Você deseja voltar ao menu inicial ou finalizar o programa?")
-            print("")
-            print("1 - Voltar ao menu inicial")
-            print("2 - Encerrar o programa.")
+            print("6 - Voltar para o início")
             print("")
 
-            i = int(input("Digite a opção desejada: "))
+            produto = int(input("Digite a opção desejada: "))
 
-            if (i == 1):
-                clear()
-            if (i == 2):
-                clear()
-                sys.exit()
+            match produto:
+                case 1:
+                    clear()
+                    print(f"informações sobre as vendas")
+                    print("")
+                    input("Pressione ENTER para continuar...")
+
+                    clear()
+                    print(f"Obrigado pelo acesso {nome}! Você deseja voltar ao menu inicial ou finalizar o programa?")
+                    print("")
+                    print("1 - Voltar ao menu inicial")
+                    print("2 - Encerrar o programa.")
+                    print("")
+
+                    i = int(input("Digite a opção desejada: "))
+
+                    if (i == 1):
+                        clear()
+                    if (i == 2):
+                        clear()
+                        sys.exit()
+                case 2:
+                    clear()
+                    print(f"realizar atendimento ao cliente")
+                    print("")
+                    input("Pressione ENTER para continuar...")
+
+                    clear()
+                    print(f"Obrigado pelo acesso {nome}! Você deseja voltar ao menu inicial ou finalizar o programa?")
+                    print("")
+                    print("1 - Voltar ao menu inicial")
+                    print("2 - Encerrar o programa.")
+                    print("")
+
+                    i = int(input("Digite a opção desejada: "))
+
+                    if (i == 1):
+                        clear()
+                    if (i == 2):
+                        clear()
+                        sys.exit()
+                case 3:
+                    clear()
+                    print(f"informações o marketing")
+                    print("")
+                    input("Pressione ENTER para continuar...")
+
+                    clear()
+                    print(f"Obrigado pelo acesso {nome}! Você deseja voltar ao menu inicial ou finalizar o programa?")
+                    print("")
+                    print("1 - Voltar ao menu inicial")
+                    print("2 - Encerrar o programa.")
+                    print("")
+
+                    i = int(input("Digite a opção desejada: "))
+
+                    if (i == 1):
+                        clear()
+                    if (i == 2):
+                        clear()
+                        sys.exit()
+                case 4:
+                    clear()
+                    print(f"informações sobre commerce")
+                    print("")
+                    input("Pressione ENTER para continuar...")
+
+                    clear()
+                    print(f"Obrigado pelo acesso {nome}! Você deseja voltar ao menu inicial ou finalizar o programa?")
+                    print("")
+                    print("1 - Voltar ao menu inicial")
+                    print("2 - Encerrar o programa.")
+                    print("")
+
+                    i = int(input("Digite a opção desejada: "))
+
+                    if (i == 1):
+                        clear()
+                    if (i == 2):
+                        clear()
+                        sys.exit()
+                case 5:
+                    clear()
+                    print(f"informações sobre data cloud")
+                    print("")
+                    input("Pressione ENTER para continuar...")
+
+                    clear()
+                    print(f"Obrigado pelo acesso {nome}! Você deseja voltar ao menu inicial ou finalizar o programa?")
+                    print("")
+                    print("1 - Voltar ao menu inicial")
+                    print("2 - Encerrar o programa.")
+                    print("")
+
+                    i = int(input("Digite a opção desejada: "))
+
+                    if (i == 1):
+                        clear()
+                    if (i == 2):
+                        clear()
+                        sys.exit()
+                case 6:
+                    clear()
+
         case 2:
             clear()
             print(f"Ok {nome}. Por qual canal deseja entrar em contato?")
